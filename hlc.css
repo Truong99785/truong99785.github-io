@@ -1,0 +1,137 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica,sans-serif;
+ }
+header{
+    background-color: rgb(245, 192, 192);
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+ }
+ .header-right span{
+    padding: 2pt 10pt;
+    border-radius: 3pt;
+    font-size: 12pt;
+    color: rgb(221, 221, 221);
+    font-weight: bold;
+ }
+ 
+ .header-right .exit{
+    display: inline;
+    color: #fff;
+    font-size: 12pt;
+ }
+ .header-left ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+  .header-left li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120pt;
+    height: 40pt;
+    line-height: 50px;
+    margin-left: -10pt;
+  }
+  .header-left a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  .header-left a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  .header-left{
+      text-align: center;
+  }
+  
+  /* .footer-left ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+  .footer-left li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120pt;
+    height: 40pt;
+    line-height: 50px;
+    margin-left: -10pt;
+  }
+  .footer-left a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  .footer-left a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  .footer-left{
+      text-align: center;
+  } */
+  
+  /* main */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #383838;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+
+  /* Layout */
+  .examples {
+    margin: 30px auto;
+    width: 940px;
+  }
+  .example-list li {
+    float: left;
+    margin-right: 40px;
+    width: 270px; /*chiều rộng tấm hình*/
+    text-align: center;
+  }
+  .example-list li:nth-child(4n) {
+    margin-right: 0;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .main{
+    margin:30px auto;
+    width: 940px;
+  }
