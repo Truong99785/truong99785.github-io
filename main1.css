@@ -1,0 +1,20 @@
+h1{
+    color:rgb(128, 127, 238);
+    font-size: 15px;
+    background-color: antiquewhite;
+}
+h2{
+    font-size: 9px;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Arial','Segoe UI';
+    background-image:url(https://img.powerpoint.com.vn/uploads/2019/06/09/hinh-nen-cho-powerpoint-rung-cay-va-bau-troi_092717710.jpeg);
+}
+table{
+    background-image: url(https://png.pngtree.com/png-clipart/20191022/ourlarge/pngtree-brown-fashion-clothes-element-in-hand-drawn-style-png-image_1795620.jpg);
+}
